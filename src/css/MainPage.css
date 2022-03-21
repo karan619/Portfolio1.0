@@ -1,0 +1,46 @@
+.mainpage__wrapper {
+  background: linear-gradient(35deg, #59dff7, #1171ef);
+  height: 100%;
+  clip-path: polygon(100% 0%, 100% 90%, -50% 100%, 0 100%, 0 0);
+  position: relative;
+}
+
+.mainpage__subwrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mainpage__lottie {
+  width: 30%;
+  padding: 20px;
+}
+
+.mainpage__heading {
+  font-size: 8vmin;
+  font-family: "Alegreya Sans", sans-serif;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.mainpage__subheading {
+  font-family: "Lato", sans-serif;
+  font-size: 4.7vmin;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .mainpage__wrapper {
+    background: linear-gradient(35deg, #59dff7, #1171ef);
+    height: 100%;
+    clip-path: none;
+    position: relative;
+  }
+  .mainpage__lottie {
+    width: 60%;
+    padding: 20px;
+  }
+}

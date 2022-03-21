@@ -1,0 +1,114 @@
+.project__wrapper {
+  margin: 30px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.project__headingwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.project__innericon {
+  background-color: #fdfdfd;
+  padding: 18px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 0 rgba(95, 93, 93, 0.3);
+}
+
+.project__briefcase {
+  color: #11cdef;
+  font-size: 30px;
+}
+
+.project__heading {
+  padding: 20px;
+  color: #11cdef;
+  font-size: 3rem;
+}
+
+.project__cardwrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.project__card {
+  margin: 2rem;
+  width: 40%;
+  padding: 20px;
+  border-radius: 10px !important;
+  box-shadow: 5px 5px 15px 5px #54585a63;
+  transition: 0.8s;
+  align-items: center !important;
+}
+
+.project__card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.project__cardheader {
+  font-size: 1.6rem;
+  font-weight: bold;
+  background: #fff !important;
+  padding: 25px !important;
+}
+
+.project__image {
+  width: 80% !important;
+  border-radius: 25px !important;
+  object-fit: contain !important;
+}
+
+.project__title {
+  font-size: 1.8rem;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.project__description {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.project__links {
+  padding: 10px 15px;
+  text-decoration: none !important;
+  background: 0 0;
+  border: 2px solid #11cdef;
+  border-radius: 3px;
+  margin: 10px;
+  font-size: 1.1rem;
+  color: #11cdef;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 1s;
+  cursor: pointer;
+}
+.project__links:hover {
+  color: white;
+  background-color: #11cdef;
+}
+
+@media only screen and (max-width: 991px) {
+  .project__heading {
+    font-size: 2rem;
+  }
+
+  .project__briefcase {
+    font-size: 20px;
+  }
+
+  .project__cardwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project__card {
+    width: 100%;
+    padding: 20px;
+  }
+}

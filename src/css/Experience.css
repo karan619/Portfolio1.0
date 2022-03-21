@@ -1,0 +1,49 @@
+.experience__headingwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.experience__innericon {
+  background-color: #fdfdfd;
+  padding: 18px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 0 rgba(95, 93, 93, 0.3);
+}
+
+.experience__briefcase {
+  color: #11cdef;
+  font-size: 30px;
+}
+
+.experience__heading {
+  padding: 20px;
+  color: #11cdef;
+}
+
+.experience__cardwrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.experience__card {
+  margin: 2.5rem;
+  padding: 40px 0px 40px 20px;
+  border-radius: 20px !important;
+  box-shadow: 5px 5px 15px 5px #54585a63;
+  transition: 0.8s;
+}
+
+.experience__card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.experience__cardheader {
+  font-size: 1.6rem;
+  font-weight: bold;
+  background: #fff !important;
+  padding: 25px !important;
+}
